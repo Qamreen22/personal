@@ -1,0 +1,175 @@
+.main{
+    width: 100%;
+    background-color: #DE4779;
+    color: white;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.main p{
+    font-size: 17px;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.nav-bar-right a{
+    color:white;
+    text-decoration: none;
+}
+.nav-bar-right a:hover{
+    color: #DE4779;
+}
+
+.dropdown-menu a{
+    background-color: #ffffff;
+    color: #DE4779;
+}
+.dropdown-menu a:hover{
+    background-color: #de4779a1;
+    color: #ffffff;
+}
+
+.nav-bar-right{
+    padding: 20px;
+    padding-top:25px ;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.nav-bar-left{
+    padding-top: 20px;
+}
+
+h2, h1, h3, h4, h5, h6{
+    font-family: 'Noto Serif Display', serif;
+}
+
+.btn, .dropdown-menu, p, h3, h4{
+    font-family: 'Roboto Slab', serif;
+}
+
+@media (max-width: 647px) {
+    .nav-bar{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .nav-bar-right{
+        display: flex;
+        justify-content: end;
+    }
+    #skills .row{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 334px) {
+    .nav-bar{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .nav-bar-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .btn{
+        width: 100%;
+    }
+    #skills .row{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+#about>.container{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+span{
+    color: #55138f;
+}
+p,h1,h2{
+    text-align: justify;
+}
+
+#skills>.container{
+    margin-bottom: 55px;
+    padding-bottom: 20px;
+}
+
+#skills .row{
+    padding: 30px;
+    margin-bottom: 40px ;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid #de4779;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills img{
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+}
+
+#skills h4{
+    margin: 20px;
+}
+
+#experience>.container{
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+#experience h1, #hobbies h1{
+    margin-bottom: 50px;
+}
+
+.hobby{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #DE4779;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+footer img{
+    height: 20px;
+    width: 20px;
+}
+
+.ho:hover{
+    background-color: #ffffff2c;
+}
+
