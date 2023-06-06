@@ -193,6 +193,7 @@ p,h1,h2{
     .hobby{
         margin-bottom: 50px;
         display: flex;
+        flex-flow: row wrap;
         justify-content: start;
     }
     .hobby>*.card{
