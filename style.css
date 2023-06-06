@@ -198,6 +198,7 @@ p,h1,h2{
     .hobby>*.card{
         margin-bottom: 40px;
         margin-right: 75px;
+        margin-left: 20px;
     }
 }
     
