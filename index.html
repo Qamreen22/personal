@@ -1,1 +1,195 @@
-
+<!DOCTYPE html>
+<html lang="en" data-bs-spy="scroll">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link  rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Noto+Serif+Display:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@500&family=Rubik+Puddles&family=Source+Serif+4&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main" id="homee">
+        <div class="nav-bar">
+            <div class="nav-bar-left">
+                <h2 class="featurette-heading fw-normal lh-1">Qamreen</h2>
+                <div class="email">
+                   <p><img src="./images/envelope.svg" alt="mail-icon" height="20px"> qamreenw@gmail.com</p> 
+                </div>
+            </div>
+            <div class="nav-bar-right">
+               <div class="home">
+                    <button type="button" class="btn btn-outline-light">
+                        <a href="#homee">Home</a>
+                    </button>
+               </div>
+               <div class="about-me">
+                    <button type="button" class="btn btn-outline-light">
+                        <a href="#about">About Me</a>
+                    </button>
+                </div>
+                <div class="dropdown-center">
+                        <button class="btn btn-outline-light dropdown-toggle bth" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More 
+                        </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                      <li><a class="dropdown-item" href="#experience">Experience</a></li>
+                      <li><a class="dropdown-item" href="#hobbies">Hobbies</a></li>
+                      <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <div class="row featurette">
+                <div class="col-lg-6">
+                  <h1 class="featurette-heading fw-normal lh-1">Hello! I am <span>Qamreen</span>, a Web Developer</h1>
+                  <p class="lead">Welcome to my portfolio website. I am passionate about creating elegant and functional web applications. With a strong foundation in web development, I strive to deliver high-quality solutions that meet the clients' needs. I constantly expand my knowledge and skills to stay up-to-date with the latest technologies and industry trends. Feel free to explore my projects and get in touch!</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="responsive-image" src="./images/601014116770475.6068beff4640a.gif" alt="profile-pic" width="500px" height="400px">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h1 class="featurette-heading fw-normal lh-1">Skills</h1>
+            <div class="row">
+                <div class="item java">
+                    <img src="./images/icons8-java-48.png" alt="java-icon" width="100px" height="100px">
+                    <h4>Java</h4>
+                    <p>Level: Advance</p>
+                    <p>Experience: 5 Years</p>
+                    <p>Frameworks: Spring Boot</p>
+                </div>
+                <div class="item c">
+                    <img src="./images/icons8-c-48.png" alt="c-icon" width="100px" height="100px">
+                    <h4>C Programming</h4>
+                    <p>Level: Intermediate</p>
+                    <p>Experience: 2 Years</p>
+                    <p>Frameworks: SQLite</p>
+                </div>
+                <div class="item python">
+                    <img src="./images/icons8-python-48.png" alt="python-icon" width="100px" height="100px">
+                    <h4>Python</h4>
+                    <p>Level: Intermediate</p>
+                    <p>Experience: 2 Years</p>
+                    <p>Frameworks: Django</p>
+                </div>
+                <div class="item html">
+                    <img src="./images/icons8-html-64 (1).png" alt="html-icon" width="100px" height="100px">
+                    <h4>HTML</h4>
+                    <p>Level: Advance</p>
+                    <p>Experience: 4 Years</p>
+                </div>
+                <div class="item css">
+                    <img src="./images/icons8-css-48.png" alt="css-icon" width="100px" height="100px">
+                    <h4>CSS</h4>
+                    <p>Level: Advance</p>
+                    <p>Experience: 4 Years</p>
+                    <p>Frameworks: Bootstrap</p>
+                </div>
+           </div>   
+           <hr class="featurette-divider">
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h1 class="featurette-heading fw-normal lh-1">Experience</h1>
+            <div id="carouselExampleCaptions" class="carousel slide mb-5">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/tech.gif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Tech Team</h5>
+                      <p class="lead">Collaborated effectively as a valuable member of a dynamic tech team, contributing to successful project deliveries and fostering a culture of innovation.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/7aa2b06b784acdecd90c703d0ce6ca82.gif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Maketting Team</h5>
+                      <p class="lead">Contributed to the marketing team's success by executing strategic campaigns, analyzing market trends, and driving impactful initiatives to maximize brand visibility and customer engagement.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item robo">
+                    <img src="./images/robo1.gif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Robotics Intern</h5>
+                      <p class="lead">Gained hands-on experience as a robotics intern, actively participating in the development, testing, and refinement of robotic systems while collaborating with a diverse team of engineers.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <hr class="featurette-divider">
+        </div>
+    </section>
+    <section id="hobbies">
+        <div class="container">
+            <h1 class="featurette-heading fw-normal lh-1">Hobbies & Interests</h1>
+            <div class="hobby">
+                <div class="card" style="width: 16rem;">
+                    <img src="images/novel.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">From gripping thrillers to thought-provoking classics, I immerse myself in captivating stories that transport me to different worlds. Exploring diverse genres allows me to expand my imagination, broaden my perspectives, and ignite a lifelong love for literature.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="./images/art.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Painting is my creative outlet, where I express emotions and ideas through vibrant colors and brushstrokes. From abstract compositions to realistic landscapes, I enjoy experimenting with different techniques and mediums, allowing me to channel my inner artist and find joy in every stroke.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="./images/music.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Music has the power to move and inspire me. I embrace a wide range of musical genres, from soulful jazz to energetic rock, and everything in between. Whether I need to unwind, uplift my mood, or simply appreciate the beauty of melodies, music accompanies me in every moment of life.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="./images/boat.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Exploring the serene waters and feeling the gentle breeze on my face while boating brings me immense joy and tranquility. Whether it's sailing along the coast, cruising on a calm lake, or indulging in water sports, being in harmony with nature and embracing the vastness of the open sea is an exhilarating experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <button type="button" class="btn btn-outline-light ho"><a href="#homee"><img src="./images/house-door-fill.svg"></a></button>
+                  </div>
+              
+                  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/"><img src="./images/linkedin.svg"></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/qxmreen?igshid=ZGUzMzM3NWJiOQ=="><img src="./images/instagram.svg"></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://github.com/Qamreen22"><img src="./images/github.svg"></a></li>
+                  </ul>
+                </footer>
+    </section>
+</body>
+</html>
